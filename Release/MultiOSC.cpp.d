@@ -1,0 +1,22 @@
+C:\Users\Planer\AppData\Local\Temp\VMicroBuilds\MultiOSC\pro_16MHzatmega328\MultiOSC.cpp.o: \
+ C:\Users\Planer\AppData\Local\Temp\VMicroBuilds\MultiOSC\pro_16MHzatmega328\MultiOSC.cpp \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/arduino.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/binary.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/WCharacter.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/WString.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/HardwareSerial.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Stream.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Print.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Printable.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/USBAPI.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Arduino.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\eightanaloginputs/pins_arduino.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\eightanaloginputs/../standard/pins_arduino.h \
+ D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX/Adafruit_GFX.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Arduino.h \
+ C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino/Print.h \
+ D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX/Adafruit_PCD8544.h \
+ D:\Dropbox\workspace\arduino\libraries\FreqCount/FreqCount.h \
+ D:\Dropbox\workspace\arduino\libraries\PWM/PWM.h \
+ D:\Dropbox\workspace\arduino\libraries\PWM/utility/BTimerDefs.h \
+ D:\Dropbox\workspace\arduino\libraries\CyberLib/CyberLib.h

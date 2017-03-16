@@ -10,7 +10,7 @@
 #define key_up   13  // button Up
 #define akb A5       // analyse battery pin
 #define overclock 16 // real crystal freq
-#define contrast 40  // display contrast
+#define contrast 45  // display contrast
 //    int SCK, int MOSI, int DC, int RST, int CS
 // (clk(scl), din(sda), dc, ce, rst)       
 Adafruit_PCD8544 display = Adafruit_PCD8544(7, 6, 4, 3, 2); //arduino pins for display

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C5F80730-F44F-4478-BDAE-6634EFC2CA88}</ProjectGuid>
+    <RootNamespace>$safeprojectname$</RootNamespace>
+    <ProjectName>MultiOSC</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>
+    </PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX;D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX\utility;D:\Dropbox\workspace\arduino\libraries\CyberLib;D:\Dropbox\workspace\arduino\libraries\CyberLib\utility;D:\Dropbox\workspace\arduino\libraries\FreqCount;D:\Dropbox\workspace\arduino\libraries\FreqCount\utility;D:\Dropbox\workspace\arduino\libraries\PWM;D:\Dropbox\workspace\arduino\libraries\PWM\utility;C:\Program Files (x86)\Arduino\libraries;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\libraries;D:\Dropbox\workspace\arduino\libraries;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\eightanaloginputs;D:\Workspace\MultiOSC;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2/avr/include/;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>D:\Workspace\MultiOSC\__vm\.MultiOSC.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <IgnoreStandardIncludePath>false</IgnoreStandardIncludePath>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=106012;ARDUINO_AVR_PRO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX;D:\Dropbox\workspace\arduino\libraries\FreqCount;D:\Dropbox\workspace\arduino\libraries\PWM;D:\Dropbox\workspace\arduino\libraries\CyberLib;D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX\utility;D:\Dropbox\workspace\arduino\libraries\CyberLib\utility;D:\Dropbox\workspace\arduino\libraries\FreqCount\utility;D:\Dropbox\workspace\arduino\libraries\PWM\utility;C:\Program Files (x86)\Arduino\libraries;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\libraries;D:\Dropbox\workspace\arduino\libraries;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\eightanaloginputs;D:\Workspace\MultiOSC;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\cores\arduino;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\variants\eightanaloginputs;D:\Dropbox\workspace\arduino\libraries\Adafruit_GFX;D:\Dropbox\workspace\arduino\libraries\FreqCount;D:\Dropbox\workspace\arduino\libraries\PWM;D:\Dropbox\workspace\arduino\libraries\CyberLib;C:\Program Files (x86)\Arduino\libraries;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\hardware\avr\1.6.17\libraries;C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\vmpek0jv.tuw\Micro Platforms\default\debuggers;D:\Dropbox\workspace\arduino\libraries;D:\Dropbox\workspace\arduino\libraries\PWM\utility;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2/avr/include/;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2//avr/include/avr/;C:\Users\Planer\AppData\Local\arduino15\packages\arduino\tools\avr-gcc\4.9.2-atmel3.5.3-arduino2/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="VisualMicro" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MultiOSC.ino">
+      <FileType>CppCode</FileType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.MultiOSC.vsarduino.h" />
+  </ItemGroup>
+  <PropertyGroup>
+    <DebuggerFlavor>VisualMicroDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
